@@ -1,0 +1,9 @@
+/.vscode
+/__pycache__
+test_map.py
+test_dt.py
+views/__pycache__/weather_view.cpython-312.pyc
+db copy.json
+views/__pycache__/weather_view.cpython-312.pyc
+
+.vercel
