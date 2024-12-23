@@ -2,7 +2,6 @@ import requests
 import datetime
 
 
-# Ваш API ключ OpenWeatherMap
 API_KEY = "YOUR_API_KEY"
 
 
@@ -17,7 +16,7 @@ def get_weather_day(city_name):
         main = data['main']
         wind = data['wind']
         weather_description = data['weather'][0]['description']
-        icon_code = data['weather'][0]['icon']  # Код иконки погоды
+        icon_code = data['weather'][0]['icon']  
         day = datetime.datetime.fromtimestamp(data['dt']).strftime('%A')
         
         temperature_celsius = main['temp'] - 273.15
