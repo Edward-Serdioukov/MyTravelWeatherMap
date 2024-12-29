@@ -176,7 +176,6 @@ class TravelWeather():
                                             alignment=flet.alignment.center,
                                             data=city,  width=345, height=345,
                                             on_click=lambda e: self.show_image_modal(e),
-                                            #on_click=self.on_marker_click,
                                             tooltip=flet.Tooltip(
                                                 message=f"{city["name"]}",
                                                 padding=20,
